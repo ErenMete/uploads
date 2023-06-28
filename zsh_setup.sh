@@ -10,5 +10,5 @@ SAVEHIST=1000
 setopt appendhistory
 bindkey '^H' backward-kill-word
 bindkey '5~' kill-word
-bindkey "^[[1;5C" forward-word
-bindkey "^[[1;5D" backward-word" >> ~/.zshrc
+bindkey '^[[1;5C' forward-word
+bindkey '^[[1;5D' backward-word" >> ~/.zshrc
